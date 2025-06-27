@@ -1,4 +1,4 @@
-# GC-RC-RSA
+# GC-Recurrence
 
 # Image Classification Model Training, Testing, and Feature Extraction
 
@@ -11,7 +11,7 @@ This project mainly covers three core functionalities:
 ## Directory Structure
 ```plaintext
 train.py
-test.py
+test2.py
 feature_extractor.py
 ```
 
@@ -50,7 +50,7 @@ python train.py
 
 #### Usage
 ```bash
-python test.py
+python test2.py
 ```
 
 ---
@@ -79,7 +79,7 @@ python feature_extractor.py
 ## Output Files
 
 - **Training Results**:  
-  Saved as `unipath_training_results_cv.csv`, containing training metrics like loss, accuracy, and AUC across cross-validation folds.
+  Saved as `unipath_training_results_cv.csv`, containing training metrics https://github.com/qsyys/GC-Recurrence/blob/main/README.mdlike loss, accuracy, and AUC across cross-validation folds.
 
 - **Testing Results**:  
   Saved as `unipath_test_results.csv`, including metrics such as accuracy, AUC, sensitivity, and specificity on the test set.
