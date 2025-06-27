@@ -36,7 +36,7 @@ python train.py
 
 ---
 
-### 2. Testing Script (`test.py`)
+### 2. Testing Script (`test2.py`)
 #### Functionality
 - Loads a trained model and evaluates it on the test dataset.
 - Saves the test evaluation results.
